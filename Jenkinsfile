@@ -9,7 +9,7 @@ pipeline {
     }
     stage('execute') {
       steps {
-        sh 'python test.py'
+        sh 'echo "hello world"'
       }
     }
   }
