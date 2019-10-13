@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         echo 'start of pipeline'
-        input(message: 'Approve?', id: 'yes', ok: 'no')
+        input(message: 'Approve?', id: 'id', ok: 'yes')
       }
     }
     stage('execute') {
